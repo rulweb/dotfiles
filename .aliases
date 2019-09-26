@@ -1,0 +1,13 @@
+# Unix
+alias ll="ls -al"
+alias ll="ls -al"
+
+# 
+alias cl="clear"
+
+# ZSH Config
+alias zcfg="subl ~/.zshrc"
+alias zrld="source ~/.zshrc"
+
+# Include custom aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
