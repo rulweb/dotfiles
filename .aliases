@@ -1,9 +1,12 @@
 # Unix
 alias ll="ls -al"
 alias ll="ls -al"
-
-# 
 alias cl="clear"
+
+# GIT
+alias gl="git pull"
+alias gs="git push"
+alias ga="git add"
 
 # ZSH Config
 alias zcfg="subl ~/.zshrc"
