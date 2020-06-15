@@ -47,6 +47,8 @@ ZSH_THEME="bira"
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
 
+ZSH_DISABLE_COMPFIX=true
+
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
@@ -81,6 +83,9 @@ source $HOME/.aliases
 source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
+
+export GOPATH=$HOME/Work/GoProjects
+export PATH=$PATH:$GOPATH/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
