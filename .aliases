@@ -9,6 +9,9 @@ alias dcu="docker-compose up"
 alias dcub="docker-compose up --build"
 alias dcubd="docker-compose up --build -d"
 
+# Laravel Sail
+alias sail='bash vendor/bin/sail'
+
 # GIT
 alias gl="git pull"
 alias gs="git push"
