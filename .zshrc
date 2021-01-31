@@ -85,10 +85,7 @@ source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # User configuration
 
 export GOPATH=$HOME/Work/GoProjects
-export PATH=$PATH:/opt/local/bin:/opt/local/sbin:$HOME/.composer/vendor/bin:$GOPATH/bin
-export PATH=/Library/Developer/CommandLineTools/usr/bin:$PATH
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/liberica-jdk-8-full.jdk/Contents/Home/
-export MANPATH=/opt/local/share/man:$MANPATH
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -113,4 +110,3 @@ export MANPATH=/opt/local/share/man:$MANPATH
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="/usr/local/opt/libpq/bin:$PATH"
