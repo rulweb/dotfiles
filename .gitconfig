@@ -1,3 +1,5 @@
 [user]
 	email = rul22rus@gmail.com
 	name = RuleZzz
+[core]
+	autocrlf = input
